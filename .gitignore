@@ -38,6 +38,45 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+[firebase.json
+firepit-log.txt
+# Android related
+*.apk
+*.aar
+*.aab
+local.properties
+# iOS related
+Pods/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcsettings
+*.xcodeproj
+*.xcconfig
+# macOS related
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcsettings
+*.xcodeproj
+*.xcconfig
+# Web related
+lib/generated_plugin_registrant.dart
+# Windows related
+windows/runner/
+# Linux related
+linux/runner/
+# VS Code
+.vscode/
+# Test outputs
+reports/
+# Ignore asset outputs
+flutter_assets/
+# Ignore native assets
+native_assets/
+native_hooks/
+# Ignore ephemeral files
+**/ephemeral/
 
 # Android Studio will place build artifacts here
 /android/app/debug
